@@ -1,12 +1,25 @@
-.highlight {
-  color:orange;
+h1:hover {
+  color:darkgreen;
 }
-/* here's a comment */
-aside.highlight {
-  background-color: black;
+a:visited {
+  text-decoration:none;
 }
-#homepage {
+header {
   width:80%;
   margin:auto;
-  border:2px solid black;
+  text-align:center;
+}
+article {
+  width:60%;
+  margin:auto;
+  text-align:center;
+}
+nav li::first-letter {
+  font-size:2em;
+}
+footer {
+  border:2px solid rgb(40,100,30);
+  background:rgb(200,200,200);
+  border-radius:10px;
+  padding:0 15px;
 }
