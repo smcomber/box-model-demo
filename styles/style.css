@@ -1,25 +1,15 @@
-h1:hover {
-  color:darkgreen;
+header img {
+  width: 33%;
 }
-a:visited {
+a {
   text-decoration:none;
 }
-header {
-  width:80%;
-  margin:auto;
-  text-align:center;
+nav a {
+  text-decoration:underline;
 }
-article {
-  width:60%;
-  margin:auto;
-  text-align:center;
+p {
+  color:magenta;
 }
-nav li::first-letter {
-  font-size:2em;
-}
-footer {
-  border:2px solid rgb(40,100,30);
-  background:rgb(200,200,200);
-  border-radius:10px;
-  padding:0 15px;
+p {
+  color:orange;
 }
